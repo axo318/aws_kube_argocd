@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: app-about-to-fail
-          image: 090841905266.dkr.ecr.eu-central-1.amazonaws.com/clusterabouttofail:latest
+          image: 090841905266.dkr.ecr.eu-central-1.amazonaws.com/clusterabouttofail:v2
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
